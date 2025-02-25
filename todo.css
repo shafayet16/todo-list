@@ -1,82 +1,78 @@
-/* Keep the existing global styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-  }
-  
-  .container {
-    width: 100%;
-    min-height: 100vh;
-    background: linear-gradient(120deg, #3498db, #8e44ad);
-    padding: 10px;
-  }
-  
-  .todo-app {
-    width: 100%;
-    max-width: 540px;
-    background: #fff;
-    margin: 100px auto 20px;
-    padding: 40px 30px 70px;
-    border-radius: 10px;
-  }
-  
-  .todo-app h2 {
-    text-align: center;
-    margin-bottom: 20px;
-    color: #002765;
-  }
-  
-  /* Updated layout for the row */
-  .row {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; /* Adjust spacing between elements */
-    background: #edeef0;
-    border-radius: 30px;
-    padding: 5px;
-    margin-bottom: 25px;
-    width: 100%;
-    max-width: 100%;
-  }
-  
-  /* Input field styling */
-  input[type="text"] {
-    flex: 1;
-    height: 45px;
-    border: none;
-    outline: none;
-    background: #edeef0;
-    padding: 0 15px;
-    border-radius: 30px;
-    font-size: 16px;
-  }
-  
-  /* Button styling */
-  button {
-    background: #3498db;
-    color: #fff;
-    border: none;
-    outline: none;
-    padding: 10px 20px;
-    border-radius: 30px;
-    cursor: pointer;
-    font-size: 16px;
-    white-space: nowrap;
-    margin-left: 10px;
-    height: 45px; /* Match input height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  button:hover {
-    background: #2980b9;
-  }
-  
-  /* New layout for the "def 1" and "def 2" sections */
-  .todo-sections {
-    display: flex;
-    justify-content: space-between;
-    gap: 20px; /* Adjust the gap between sections */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Franklin Gothic
+    Medium", "Arial Narrow", Arial, sans-serif;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(120deg, #3498db, #8e44ad);
+  padding: 10px;
+}
+.todo-app {
+  width: 100%;
+  max-width: 540px;
+  background: #fff;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
+  border-radius: 10px;
+}
+.todo-app h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002765;
+}
+.row {
+  display: flex;
+  align-items: center;
+  background: #edeef0;
+  border-radius: 30px;
+  padding: 5px;
+  margin-bottom: 25px;
+}
+input[type="text"] {
+  flex: 1;
+  height: 45px;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 0 15px;
+  border-radius: 30px;
+  font-size: 16px;
+}
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  white-space: nowrap;
+  margin-left: 10px;
+  height: 45px;
+}
+button:hover {
+  background: #2980b9;
+} /* New layout for the two
+    sections */
+.todo-sections {
+  display: flex;
+  gap: 20px; /* Space between the two
+    sections */
+  margin-top: 20px;
+}
+.todo-section {
+  flex: 1;
+  background: #edeef0;
+  border-radius: 10px;
+  padding: 15px;
+  text-align: center;
+}
+.todo-section h3 {
+  margin-bottom: 10px;
+  color: #002765;
+}
