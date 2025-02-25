@@ -15,6 +15,20 @@
   width: 100%;
   max-width: 540px;
   background: #fff;
-  margin: 40px 30px 70px;
+  margin: 100px auto 20px;
+  padding: 40px 30px 70px;
   border-radius: 10px;
+}
+.todo-app h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #002765;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #edeef0;
+  border-radius: 30px;
+  padding-left: 20px;
 }
