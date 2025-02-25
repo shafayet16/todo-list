@@ -32,3 +32,30 @@
   border-radius: 30px;
   padding-left: 20px;
 }
+input[type="text"] {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background: #edeef0;
+  padding-left: 20px;
+  border-radius: 30px;
+}
+input[type="text"]::placeholder {
+  color: #8e8e8e;
+}
+input[type="text"]:focus {
+  border: 2px solid #3498db;
+}
+button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background: #2980b9;
+}
